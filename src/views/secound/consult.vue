@@ -1,14 +1,12 @@
 <template>
-  <div>
-    <keep-alive :include="['add']">
-      <router-view></router-view>
-    </keep-alive>
-  </div>
+<div>
+    咨询
+</div>
 </template>
 
 <script>
 export default {
-  created () { },
+  created () {},
   data () {
     return {}
   },
@@ -21,4 +19,5 @@ export default {
 </script>
 
 <style scoped lang='less'>
+
 </style>
